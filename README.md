@@ -1,4 +1,4 @@
-# Array Utils for Arduino
+# Array Utils for Arduino [![.github/workflows/arduino.yml](https://github.com/SkyIsTheLimit/arduino-array-utils/actions/workflows/arduino.yml/badge.svg)](https://github.com/SkyIsTheLimit/arduino-array-utils/actions/workflows/arduino.yml)
 
 Utility array functions for arduino.
 
