@@ -8,7 +8,15 @@
 #ifndef ARRAY_UTILS_H
 #define ARRAY_UTILS_H
 
-int search(int searchItem, int values[], int length);
-int search(char *searchItem, char *values[], int length);
+/**
+ * @brief Function to search for an item in an array with elements of T.
+ *
+ * @param searchItem The item to search for.
+ * @param values Array to search.
+ * @param length Length of the array.
+ * @return int Returns -1 if not found else index of item.
+ */
+template <typename T>
+int search(T searchItem, int values[], int length);
 
 #endif
